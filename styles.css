@@ -1,8 +1,9 @@
-
-<!DOCTYPE html>       
- <html lang="en">
-     <head>
-        <title>hello JS rockets</title>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    
         <script type="text/javascript">
 			console.log("Trying to fix JS Console output");
 		</script>
@@ -11,6 +12,4 @@
  			is this working?
 		</body>
 </html>
-
-
 
