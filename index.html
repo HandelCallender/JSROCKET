@@ -11,11 +11,18 @@
                 crew: 1015,
                 captain: "Jean Luc Picard",
                 bridgeCrew: ["Riker","Data","Troi","Worf","Geordi","Crusher"],
-                warpFactor:["warp 1"],
+                warpFactor:["warp 1","warp 2"],
                 
                 engageWarp: function () {
                     this.isAtWarp=true;
+                },
+                
+                setWarpFactor: function (shipSpeed) {
+                    if (starship.warpFactor === warpFactor.indexOf[0]) {
+                        starship.warpFactor = "Ship is at warp" + warpFactor.index;
+                        }
                 }
+            
             };
             console.log('If this works, I should have an output in my console');
         </script>
